@@ -101,8 +101,8 @@ def myFunc (x):
     x += x * 3 - 5
     return x
 
-ans1 = myFunc(4)
+ans1 = myFunc(4)    # Variable assignment from result of function call
 ans2 = myFunc(a)
 print(ans1)
 print(ans2)
-print(myFunc(a + b)
+print(myFunc(a + b))    # Function call with variable expression argument
